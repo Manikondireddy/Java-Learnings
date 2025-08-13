@@ -29,8 +29,8 @@ class SavingsAccount extends BankAccount1 {
             super.withdraw(amount);
         }
     }
-}
-  public class BankAccount {
+} 
+  public class BankAccount { 
     public static void main(String[] args) {
         SavingsAccount account = new SavingsAccount(500);
         account.withdraw(200);
@@ -39,5 +39,6 @@ class SavingsAccount extends BankAccount1 {
         account.withdraw(250); 
     }
 }
+
     
 
