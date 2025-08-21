@@ -24,7 +24,7 @@ public class UniquePizzaOrders {
         HashSet<String> seenNames = new HashSet<>();
 
         for (PizzaOrder order : orders) {
-            if (!seenNames.contains(order.name)) {
+            if (seenNames.contains(order.name)) {
                 uniqueOrders.add(order);
                 seenNames.add(order.name);
             }

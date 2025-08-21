@@ -22,7 +22,7 @@ public class Collection
         int min = Collections.min(numbers);
         System.out.println("Max: " + max + ", Min: " + min);
     }
-}
+}  
 
 
 
