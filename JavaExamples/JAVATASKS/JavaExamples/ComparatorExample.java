@@ -43,7 +43,32 @@ public class ComparatorExample {
             System.out.println(s);
         }
     }
+
+Set<String> names =new HashSet<>();
+names.add("Mani");
+names.add("radha");
+names.add("krishna");
+System.out.println("using loops");
+for(String name :names)
+{
+    System.out.println("using iterator");
+    Iterator<String> itr = names.iterator();
+    while(itr.hasNext())
+    {
+        System.out.println("loops");
+        names. stream();
+    }
+}
 }
 
+
+
+
+
+
+
     
+
+
+
 

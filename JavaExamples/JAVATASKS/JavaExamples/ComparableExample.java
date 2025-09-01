@@ -10,7 +10,7 @@ class Student implements Comparable<Student> {
         this.marks = marks;
     }
     public int compareTo(Student s) {
-        return this.marks - s.marks; // ascending order
+        return this.marks - s.marks; 
     }
 
     public String toString() {
