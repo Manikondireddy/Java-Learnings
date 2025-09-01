@@ -1,4 +1,4 @@
-package JavaExamples.TasksOnAuguest;
+package JavaExamples.TasksOnSeptmber;
     public class MoneyHeist {
     
     private String account;
