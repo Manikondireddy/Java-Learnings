@@ -16,6 +16,7 @@ public class Inherit {
         d.bark(); 
     }
 }
+ 
 
     
 
