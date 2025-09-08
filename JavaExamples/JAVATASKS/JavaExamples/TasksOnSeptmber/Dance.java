@@ -29,7 +29,7 @@ public class Dance {
         a.sound();     
         a = new Cat(); 
         a.sound();     
-        a = new Cow();   
+         a = new Cow();   
         a.sound();       
     }
 }
