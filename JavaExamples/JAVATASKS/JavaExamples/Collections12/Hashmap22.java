@@ -12,8 +12,10 @@ public class Hashmap22 {
         student.put("don","34");
         student.put("ran","22");
         System.out.println("student details about the data :" );
-        // for(Map.Entry<String,String> entry :map.entryset())
-         for(Map.Entry<String,String> entry:Student.entryset())
+         for(Map.Entry<String,String> entry : 
+         
+         map.entryset())
+        //  for(Map.Entry<String,String> entry:Student.entryset())
         {
             System.out.println("key =" + entry.getKey());
             System.out.println("value =" + entry.getValue());
