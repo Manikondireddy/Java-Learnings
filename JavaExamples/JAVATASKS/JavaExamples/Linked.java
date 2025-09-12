@@ -23,7 +23,13 @@ public class Linked {
         for(String numbers:number)
         {
             System.out.println(number);
-           System.out.println("final size :" + number); 
+           System.out.println("final size :" + number);
+           System.out.println("array is not in the list :");
+           System.out.println("nothing in the list :");
+           for(int i=0;i<=10;i++)
+           {
+            
+           }
         }
         
 
