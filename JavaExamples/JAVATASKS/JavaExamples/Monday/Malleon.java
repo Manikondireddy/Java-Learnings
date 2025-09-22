@@ -11,9 +11,9 @@ class Athlete extends Person{
         System.out.println("atelete eat food daily ");
     }
     @Override
-    void exercise()
+    void exercise() 
     {
-        System.out.println("athelete eat food slowly ");
+        System.out.println("ath elete eat food slowly ");
     }
 
 }

@@ -15,6 +15,8 @@ class Mobile  implements Payment{
      @Override
      public void withdrawamount(double amount)
      {
+
+     
       if(amount<=balance)
         {
         balance-= amount;
@@ -26,12 +28,6 @@ class Mobile  implements Payment{
 }
 
 }
-
-
-
-    
-
-
 public class Random {
     public static void main(String[] args) {
         Mobile p= new Mobile();

@@ -36,7 +36,6 @@ class MyStack {
         }
     }
 }
-
 class MyQueue {
     private int[] queue;
     private int front, rear, size, capacity;
@@ -87,15 +86,22 @@ public class StackQueueDemo {
         stack.display();
         stack.pop();
         stack.display();
+        stack.display();
+        stack.pop();
+        stack.display();
         System.out.println("-");
         MyQueue queue = new MyQueue(5);
         queue.enqueue(1);
         queue.enqueue(2);
         queue.enqueue(3);
-        queue.display();
+        queue.enqueue(4);
+     queue.display();
         queue.dequeue();
         queue.display();
+        
     }
+
+
 }
 
     
