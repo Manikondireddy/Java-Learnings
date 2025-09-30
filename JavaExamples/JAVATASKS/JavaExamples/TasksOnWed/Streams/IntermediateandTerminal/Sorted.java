@@ -8,8 +8,8 @@ public class Sorted {
     public static void main(String[] args) {
         List<String> name=Arrays.asList("raju","rani","krishna","renu");
         List<String> nam=name.stream()
-        .filter(n->n.Startwith("r"))
-        .map(String::toUpperCase())
+        .filter(n->n.startsWith("r"))
+        .map(String::toUpperCase)
         .sorted()
         .collect(Collectors.toList());
         System.out.println("sorted in order :" + nam);
