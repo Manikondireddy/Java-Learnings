@@ -12,8 +12,10 @@ public class SmallestElement {
         .skip(k-1)
         .findFirst()
         .orElse(-1);
-        System.out.println("kth element in the list :" + smallest);
+System.out.println("kth element in the list :" + smallest);
 
-    }
+    } 
     
-} 
+}
+
+

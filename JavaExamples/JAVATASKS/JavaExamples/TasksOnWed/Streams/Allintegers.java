@@ -9,7 +9,7 @@ public class Allintegers {
        
         int sum = num.stream()
                     .reduce(0,(a,b)->(a+b));
-        System.out.println("sum of numbers: " + sum);
+        System.out.println("sum of numbers: " + sum); 
 
 
 
